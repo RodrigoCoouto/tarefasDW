@@ -1,7 +1,7 @@
 {
-  "name": "aulasdw",
+  "name": "tarefasdw",
   "version": "1.0.0",
-  "description": "Aulas de desenvolvimento web para BSI.",
+  "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,18 +10,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fboldt/aulasdw.git"
+    "url": "git+https://github.com/RodrigoCoouto/tarefasDW.git"
   },
   "keywords": [
     "web",
     "development"
   ],
-  "author": "Francisco Boldt",
+  "author": "Rodrigo Couto",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/fboldt/aulasdw/issues"
+    "url": "https://github.com/RodrigoCoouto/tarefasDW/issues"
   },
-  "homepage": "https://github.com/fboldt/aulasdw#readme",
+  "homepage": "https://github.com/RodrigoCoouto/tarefasDW#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "dotenv": "^16.0.2",
