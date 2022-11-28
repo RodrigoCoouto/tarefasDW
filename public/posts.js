@@ -89,7 +89,7 @@ const displayCreatePost = () => {
             <br> <input type="submit" value="Postar">
             
             &ensp;
-            <h1>Caso tenha,clique em um post para o deletar</h1>
+            <h1>Lista de Posts</h1>
             `
         insertPost.addEventListener('submit', function (e) {
             e.preventDefault()
