@@ -62,17 +62,14 @@ function displayFormCadastro(evento) {
 }
 
 const sendCadastro = (payload) => {
+    console.log(payload)
     fetch('signin', {
         method: 'PUT',
         body: payload,
     })
         .then(res => res.json())
         .then(data => {
-            const { username, token } = data
-            if (username && token) {
-                localStorage.setItem('username', username)
-                localStorage.setItem('token', token)
-            }
+            alert("Cadastro Realizado com Sucesso")
             checklogin()
         })
 }
